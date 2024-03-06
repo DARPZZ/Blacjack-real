@@ -52,7 +52,7 @@ public class HelloApplication extends Application
         anchorPane.getChildren().addAll(confirm,navn,navnIndtastning,comboBox);
 
 
-        File[] imageFiles = new File("C:\\Users\\Rasmus T. Hermansen\\BlackJack\\src\\main\\java\\Userpicture").listFiles();
+        File[] imageFiles = new File("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real\\BlackJack\\src\\main\\java\\Userpicture").listFiles();
         for (File file : imageFiles) {
             if (file.isFile()) {
                 String imagePath = file.toURI().toString();
