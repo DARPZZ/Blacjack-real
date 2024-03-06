@@ -1,0 +1,77 @@
+/* Background color for the game */
+.root {
+    -fx-background-color: #003300;
+}
+
+/* Style for the player's card label */
+#playersCard {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 40px;
+}
+
+/* Style for the dealer's card label */
+#DealerValue {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 40px;
+}
+
+/* Style for the draw button */
+#draw {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #003300;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+}
+
+/* Style for the stand button */
+#stand {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #003300;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+}
+
+/* Style for the money label */
+#money {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Style for the bet amount text field */
+#betAmount {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+    -fx-border-radius: 5px;
+}
+
+/* Tooltip style for the bet amount text field */
+.tooltip {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #003300;
+    -fx-font-size: 14px;
+}
+.button:pressed {
+    -fx-scale-x: 0.9;
+    -fx-scale-y: 0.9;
+    -fx-translate-y: 2px;
+    -fx-translate-x: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 2, 1);
+}
+#infoField{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+
+}
+#navn{
+    -fx-text-fill: #a2a2a2;
+    -fx-font-size: 25px;
+    -fx-font-weight: bolder;
+    fx-font-effect: outline;
+}
+
