@@ -253,14 +253,14 @@ public class BlackJackGame
         Random random = new Random();
          int chance =random.nextInt(100);
         if(chance<=33) {
-            Image image = new Image(("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real\\BlackJack\\src\\main\\java\\DealerImage\\images.jpg"));
+            Image image = new Image(("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real4\\BlackJack\\src\\main\\java\\DealerImage\\images.jpg"));
             dealerImage.setImage(image);
 
         }else if(chance<=66) {
-          Image  image = new Image(("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real\\BlackJack\\src\\main\\java\\DealerImage\\POG.jpg"));
+          Image  image = new Image(("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real4\\BlackJack\\src\\main\\java\\DealerImage\\POG.jpg"));
             dealerImage.setImage(image);
         }else {
-            Image image = new Image(("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real\\BlackJack\\src\\main\\java\\DealerImage\\POG 2.jpg"));
+            Image image = new Image(("C:\\Users\\rasmu\\IdeaProjects\\Blacjack-real4\\BlackJack\\src\\main\\java\\DealerImage\\POG 2.jpg"));
             dealerImage.setImage(image);
         }
         dealerlabel.setLayoutX(600);

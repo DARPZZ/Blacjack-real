@@ -33,7 +33,7 @@ public class Deck {
 
         for (String suit : suits) {
             for (String rank : ranks) {
-                String filename = "file:///C:/Users/rasmu/IdeaProjects/Blacjack-real/BlackJack/src/main/java/CardPictures/" + rank + " of " + suit + ".jpg";
+                String filename = "file:///C:/Users/rasmu/IdeaProjects/Blacjack-real4/BlackJack/src/main/java/CardPictures/" + rank + " of " + suit + ".jpg";
                 Image image = new Image(filename);
                 Cards card = new Cards(suit, rank, image);
                 if (rank.equals("Ace")) {
